@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'maple';
+    src: url('fonts/Cute Maple.otf') format('opentype'),
+         url('fonts/Cute Maple.ttf') format('truetype');
+}
+
+
+
+
+
+body {
+    /*background-image: url('../images/background3.jpg');*/
+    background-repeat: no-repeat;
+}
+/*Nav Styles*/
+nav {
+    padding: 15px;
+    margin-top: -5px;
+    background-color: rgb(22, 21, 21);
+    color:white;
+}
+
+nav a {
+    color:white;
+    font-size: 200%;
+    text-decoration: none;
+    padding: 2px 15px 2px 15px;
+}
+
+nav a:hover {
+    color:white;
+    background-color: rgb(37, 36, 36);
+    transition: 0.5s;
+}
+/*Content Styles*/
+h1 {
+    font-family: 'maple';
+    font-size: 300%;
+    margin-top: 20px;
+}
+p {
+    font-family: 'maple';
+    font-size: 200%;
+}
+div img {
+    padding:20px;
+}
+.center {
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(37, 36, 36);
+    height: 70px;
+    margin-top: 200px;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    /*margin-bottom: -4px;*/
+}
